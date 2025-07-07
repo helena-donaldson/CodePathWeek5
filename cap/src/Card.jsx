@@ -6,13 +6,13 @@ const Card = (props) => {
             <img src={props.img} ></img>
             <div class="container">
             <br></br>
-            <button id="breedBtn">Breed: {props.breed}</button>
+            <button id="breedBtn" value={props.breed} onClick={props.funct}>Breed: {props.breed}</button>
             <br></br>
             <br></br>
-            <button id="originBtn">Origin: {props.origin}</button>
+            <button id="originBtn" value={props.origin} onClick={props.funct}>Origin: {props.origin}</button>
             <br></br>
             <br></br>
-            <button id="lifespanBtn">Lifespan: {props.lifespan} years</button>
+            <button id="lifespanBtn" value={props.lifespan} onClick={props.funct}>Lifespan: {props.lifespan} years</button>
             </div>
         </div>
     )

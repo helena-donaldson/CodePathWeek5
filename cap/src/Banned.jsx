@@ -1,12 +1,15 @@
 import './Banned.css';
 
 const Banned = (props) => {
+
     return (
         <div id="cardBanned">
             <div class="container">
             <p>The following are banned attributes:</p>
-            <p>{props.banned}</p>
-            <p>Select an attribute on the above card to ban it.</p>
+            {props.banned.map((item) => (
+            <div key={item}><button onClick={props.funct} value={item}>{item}</button><br></br></div>
+                ))}
+            <p>Select an attribute on the left card to ban it.</p>
             </div>
         </div>
     )

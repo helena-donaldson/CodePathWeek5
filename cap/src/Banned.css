@@ -3,9 +3,9 @@
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
   width:20em;
-  height:10em;
+  height:30em;
   background-color: white;
-  font-size: 1em;
+  padding: 2em;
 }
 
 /* Add some padding inside the card container */
