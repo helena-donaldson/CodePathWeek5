@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Bungee+Spice&family=Butterfly+Kids&family=Cedarville+Cursive&family=Fredericka+the+Great&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  text-align: center;
+  align-content: center;
+}
+
+body{
+  background-color: rgb(87, 98, 253);
+}
+
+.cardContainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.app{
+    display: grid;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+button {
+  background-color: #7000ba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#exploreBtn{
+  width: 10em;
+}
+
+.btnContainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.bannedContainer{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 3em;
+  font-family: "Butterfly Kids", cursive;
+  color: white;
+}
